@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="主程序">
+      <UniqueIdentifier>{10bec6e6-2cd4-455d-8f48-a46db38ef669}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="业务逻辑">
+      <UniqueIdentifier>{e449ba06-be63-422c-af0b-b888acd39dc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="业务逻辑\画图业务">
+      <UniqueIdentifier>{a71255cd-2a21-47aa-bb02-0d71b2f17d9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="业务逻辑\巡检任务业务">
+      <UniqueIdentifier>{b1fd5953-fb6d-48c2-a1c2-245ef6eaa82b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="业务逻辑\机械臂120遥控业务">
+      <UniqueIdentifier>{646a8bcc-63ef-4360-a95c-8dc8356f41ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="系统工具">
+      <UniqueIdentifier>{27371bb2-fcf9-412f-a954-f438e012d821}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="系统工具\系统时间">
+      <UniqueIdentifier>{aac8400f-fdfc-43b5-bfa3-e35f22561f4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="系统工具\系统图标">
+      <UniqueIdentifier>{5be3de28-5c23-4fae-9e74-c7dd03945ab4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="业务逻辑\机械臂121遥控业务">
+      <UniqueIdentifier>{cb70ad34-feb9-424f-b5f1-09c01d771282}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="业务逻辑\面阵激光雷达30业务">
+      <UniqueIdentifier>{952efada-12bc-4367-8c93-adc8ae32532a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="业务逻辑\面阵激光雷达31业务">
+      <UniqueIdentifier>{d1b68fcb-b5df-4ae5-ba3b-517936e403bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="业务逻辑\线阵激光雷达20业务">
+      <UniqueIdentifier>{dfe7e973-bc14-441a-b6eb-83f039bb39a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="业务逻辑\线阵激光雷达21业务">
+      <UniqueIdentifier>{635c4d37-65bd-4a1d-9acf-7ccd2d07a5f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="业务逻辑\系统状态状态灯业务">
+      <UniqueIdentifier>{d9906517-4760-44a0-8f4d-09c4e2aca16c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="系统工具\系统基类">
+      <UniqueIdentifier>{f4c2aa7e-a885-469e-9e18-deacf5e69e9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="数据访问">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="数据访问\SDK目录">
+      <UniqueIdentifier>{343c8726-2c03-4186-a6db-d905c1f553d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="数据访问\SDK目录\HPS3D_SDK">
+      <UniqueIdentifier>{ca65c966-60b9-4759-a1b6-88018b0a36c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="数据访问\SDK目录\LIM_SDK">
+      <UniqueIdentifier>{3e78e849-719c-4465-95da-f8e0916e57fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="用户界面">
+      <UniqueIdentifier>{029a5810-333b-4b68-b96d-7b6b944d4936}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="用户界面\机器人控制平台">
+      <UniqueIdentifier>{ec483c1d-519b-4918-bdf7-07081a1a7360}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="用户界面\机器人登录窗口">
+      <UniqueIdentifier>{800e3467-881d-414b-9aa2-4de647852dd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="业务逻辑\采集机遥控业务">
+      <UniqueIdentifier>{5d64ecc2-ec07-4e2a-b093-48884ca088f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="业务逻辑\机械臂120监视业务">
+      <UniqueIdentifier>{e543fc6b-53a4-45bc-bfe8-e54389d9b0fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="业务逻辑\机械臂121监视业务">
+      <UniqueIdentifier>{19bb84b4-c3df-43b7-bd38-7c634f54f727}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="业务逻辑\RGV监控业务">
+      <UniqueIdentifier>{41716874-faab-42aa-90c8-6749b96c64ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="业务逻辑\本地监视业务">
+      <UniqueIdentifier>{2c170f90-0949-432c-92a7-3eaaa03a8629}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="业务逻辑\本地控制业务">
+      <UniqueIdentifier>{fe785931-cc6a-4091-a35a-71d7aed094c7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="lim.cpp">
+      <Filter>数据访问\SDK目录\LIM_SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="System_Time.cpp">
+      <Filter>系统工具\系统时间</Filter>
+    </ClCompile>
+    <ClCompile Include="Public_Source.cpp">
+      <Filter>系统工具\系统基类</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>主程序</Filter>
+    </ClCompile>
+    <ClCompile Include="Robot_Server.cpp">
+      <Filter>数据访问</Filter>
+    </ClCompile>
+    <ClCompile Include="Scan_Client.cpp">
+      <Filter>数据访问</Filter>
+    </ClCompile>
+    <ClCompile Include="Jaka_Client.cpp">
+      <Filter>数据访问</Filter>
+    </ClCompile>
+    <ClCompile Include="RGV_Client.cpp">
+      <Filter>数据访问</Filter>
+    </ClCompile>
+    <ClCompile Include="Custom_Plot.cpp">
+      <Filter>业务逻辑\画图业务</Filter>
+    </ClCompile>
+    <ClCompile Include="Fr_Light.cpp">
+      <Filter>业务逻辑\系统状态状态灯业务</Filter>
+    </ClCompile>
+    <ClCompile Include="Robot_App_Widget.cpp">
+      <Filter>用户界面\机器人控制平台</Filter>
+    </ClCompile>
+    <ClCompile Include="Robot_Logon_Widget.cpp">
+      <Filter>用户界面\机器人登录窗口</Filter>
+    </ClCompile>
+    <ClCompile Include="Hypersen_Client.cpp">
+      <Filter>数据访问</Filter>
+    </ClCompile>
+    <ClCompile Include="Meijidenki_Client.cpp">
+      <Filter>数据访问</Filter>
+    </ClCompile>
+    <ClCompile Include="Jaka_120_Remote.cpp">
+      <Filter>业务逻辑\机械臂120遥控业务</Filter>
+    </ClCompile>
+    <ClCompile Include="Jaka_121_Remote.cpp">
+      <Filter>业务逻辑\机械臂121遥控业务</Filter>
+    </ClCompile>
+    <ClCompile Include="Jaka_120_Monitor.cpp">
+      <Filter>业务逻辑\机械臂120监视业务</Filter>
+    </ClCompile>
+    <ClCompile Include="Jaka_121_Monitor.cpp">
+      <Filter>业务逻辑\机械臂121监视业务</Filter>
+    </ClCompile>
+    <ClCompile Include="Hypersen_30_Remote.cpp">
+      <Filter>业务逻辑\面阵激光雷达30业务</Filter>
+    </ClCompile>
+    <ClCompile Include="Hypersen_31_Remote.cpp">
+      <Filter>业务逻辑\面阵激光雷达31业务</Filter>
+    </ClCompile>
+    <ClCompile Include="Meijidenki_20_Remote.cpp">
+      <Filter>业务逻辑\线阵激光雷达20业务</Filter>
+    </ClCompile>
+    <ClCompile Include="Meijidenki_21_Remote.cpp">
+      <Filter>业务逻辑\线阵激光雷达21业务</Filter>
+    </ClCompile>
+    <ClCompile Include="Work_Remote.cpp">
+      <Filter>业务逻辑\巡检任务业务</Filter>
+    </ClCompile>
+    <ClCompile Include="Scan_Remote.cpp">
+      <Filter>业务逻辑\采集机遥控业务</Filter>
+    </ClCompile>
+    <ClCompile Include="RGV_Remote.cpp">
+      <Filter>业务逻辑\RGV监控业务</Filter>
+    </ClCompile>
+    <ClCompile Include="Local_Monitor.cpp">
+      <Filter>业务逻辑\本地监视业务</Filter>
+    </ClCompile>
+    <ClCompile Include="Local_Remote.cpp">
+      <Filter>业务逻辑\本地控制业务</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="HPS3D_DEFINE.h">
+      <Filter>数据访问\SDK目录\HPS3D_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="HPS3D_IF.h">
+      <Filter>数据访问\SDK目录\HPS3D_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="lim.h">
+      <Filter>数据访问\SDK目录\LIM_SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="EquipmentComm.h">
+      <Filter>数据访问\SDK目录\LIM_SDK</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\lib\HPS3D_SDK.lib">
+      <Filter>数据访问\SDK目录\HPS3D_SDK</Filter>
+    </Library>
+    <Library Include="..\lib\EquipmentComm.lib">
+      <Filter>数据访问\SDK目录\LIM_SDK</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\x64\Debug\HPS3D_SDK.dll">
+      <Filter>数据访问\SDK目录\HPS3D_SDK</Filter>
+    </None>
+    <None Include="..\x64\Debug\EquipmentComm.dll">
+      <Filter>数据访问\SDK目录\LIM_SDK</Filter>
+    </None>
+    <None Include="Images\Bjtds.aps">
+      <Filter>系统工具\系统图标</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="System_Time.h">
+      <Filter>系统工具\系统时间</Filter>
+    </QtMoc>
+    <QtMoc Include="Public_Header.h">
+      <Filter>系统工具\系统基类</Filter>
+    </QtMoc>
+    <QtMoc Include="Robot_Server.h">
+      <Filter>数据访问</Filter>
+    </QtMoc>
+    <QtMoc Include="Scan_Client.h">
+      <Filter>数据访问</Filter>
+    </QtMoc>
+    <QtMoc Include="Jaka_Client.h">
+      <Filter>数据访问</Filter>
+    </QtMoc>
+    <QtMoc Include="RGV_Client.h">
+      <Filter>数据访问</Filter>
+    </QtMoc>
+    <QtMoc Include="Custom_Plot.h">
+      <Filter>业务逻辑\画图业务</Filter>
+    </QtMoc>
+    <QtMoc Include="Fr_Light.h">
+      <Filter>业务逻辑\系统状态状态灯业务</Filter>
+    </QtMoc>
+    <QtMoc Include="Robot_App_Widget.h">
+      <Filter>用户界面\机器人控制平台</Filter>
+    </QtMoc>
+    <QtMoc Include="Robot_Logon_Widget.h">
+      <Filter>用户界面\机器人登录窗口</Filter>
+    </QtMoc>
+    <QtMoc Include="Hypersen_Client.h">
+      <Filter>数据访问</Filter>
+    </QtMoc>
+    <QtMoc Include="Meijidenki_Client.h">
+      <Filter>数据访问</Filter>
+    </QtMoc>
+    <QtMoc Include="Jaka_120_Remote.h">
+      <Filter>业务逻辑\机械臂120遥控业务</Filter>
+    </QtMoc>
+    <QtMoc Include="Jaka_121_Remote.h">
+      <Filter>业务逻辑\机械臂121遥控业务</Filter>
+    </QtMoc>
+    <QtMoc Include="Jaka_120_Monitor.h">
+      <Filter>业务逻辑\机械臂120监视业务</Filter>
+    </QtMoc>
+    <QtMoc Include="Jaka_121_Monitor.h">
+      <Filter>业务逻辑\机械臂121监视业务</Filter>
+    </QtMoc>
+    <QtMoc Include="Hypersen_30_Remote.h">
+      <Filter>业务逻辑\面阵激光雷达30业务</Filter>
+    </QtMoc>
+    <QtMoc Include="Hypersen_31_Remote.h">
+      <Filter>业务逻辑\面阵激光雷达31业务</Filter>
+    </QtMoc>
+    <QtMoc Include="Meijidenki_21_Remote.h">
+      <Filter>业务逻辑\线阵激光雷达21业务</Filter>
+    </QtMoc>
+    <QtMoc Include="Meijidenki_20_Remote.h">
+      <Filter>业务逻辑\线阵激光雷达20业务</Filter>
+    </QtMoc>
+    <QtMoc Include="Scan_Remote.h">
+      <Filter>业务逻辑\采集机遥控业务</Filter>
+    </QtMoc>
+    <QtMoc Include="RGV_Remote.h">
+      <Filter>业务逻辑\RGV监控业务</Filter>
+    </QtMoc>
+    <QtMoc Include="Local_Monitor.h">
+      <Filter>业务逻辑\本地监视业务</Filter>
+    </QtMoc>
+    <QtMoc Include="Local_Remote.h">
+      <Filter>业务逻辑\本地控制业务</Filter>
+    </QtMoc>
+    <QtMoc Include="Work_Remote.h">
+      <Filter>业务逻辑\巡检任务业务</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Images\Bjtds.rc">
+      <Filter>系统工具\系统图标</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Images\icon.ico">
+      <Filter>系统工具\系统图标</Filter>
+    </Image>
+    <Image Include="Images\LOGO.png">
+      <Filter>系统工具\系统图标</Filter>
+    </Image>
+    <Image Include="Images\LOGO2.png">
+      <Filter>系统工具\系统图标</Filter>
+    </Image>
+    <Image Include="Images\LogonWidget.jpg">
+      <Filter>系统工具\系统图标</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="Images\Logo.qrc">
+      <Filter>系统工具\系统图标</Filter>
+    </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="Robot_App_Widget.ui">
+      <Filter>用户界面\机器人控制平台</Filter>
+    </QtUic>
+    <QtUic Include="Robot_Logon_Widget.ui">
+      <Filter>用户界面\机器人登录窗口</Filter>
+    </QtUic>
+  </ItemGroup>
+</Project>
